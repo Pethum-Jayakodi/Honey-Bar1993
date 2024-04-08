@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Login Page</title>
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <div class="backgr">
+        <div class="form_box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="admin()"><b>Admin</b></button>
+                <button type="button" class="toggle-btn" onclick="customer()"><b>Customer</b></button>
+            </div>
+            <form  id="adlogin" class="input-group">
+                <input type="text" class="input-field" placeholder="User name" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn"><b>Login</b></button>
+            </form>
+            <form id="clogin" class="input-group">
+                <input type="email" class="input-field" placeholder="Email Address" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                 <div class="links">Don't have an account? <a href="register.html"><div class="register">Register</div></a></div>
+                
+                <button type="submit" class="submit-btn"><b>Login</b></button>
+            </form>
+        </div>
+        </div>
+        
+         <script>
+            var x=document.getElementById("adlogin");
+            var y=document.getElementById("clogin");
+            var z=document.getElementById("btn");
+
+            function customer(){
+                x.style.left = "-400px";
+                y.style.left = "50px";
+                z.style.left = "110px";
+            }
+            function admin(){
+                x.style.left = "50px";
+                y.style.left = "450px";
+                z.style.left = "0px";
+            }
+         </script> 
+       
+    </body>
+</html>

@@ -1,0 +1,81 @@
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.backgr{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form_box{
+    width: 380px; 
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #212529;
+    padding: 5px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+#header{
+    font-family: sans-serif;
+    font-size: 38px;
+    color:#f8f5f5;
+    position: absolute;
+    top:50px;
+    left:50px;
+}
+.input-group{
+    top: 150px;
+    left: 65px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #020202;
+    outline: none;
+    background:transparent;
+    
+
+}
+.check-box{
+    margin: 30px 10px 30px 0;
+    
+}
+span{
+    color: #f8f5f5;
+    font-size: 12px;
+    font-family: sans-serif;
+    bottom: 68px;
+    position: absolute;
+    top: 170px;
+}
+.submit-btn{
+    width: 180px;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ffc107,#ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    position: absolute;
+    left: 50px;
+
+
+
+}

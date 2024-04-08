@@ -1,0 +1,256 @@
+.navbar-brand{
+  margin-right: 200px;
+}
+
+.navbar-nav .nav-link {
+  text-align: center;
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: gold;
+  transform: scale(1.1);
+  transition: all 0.4s ease-in-out;
+}
+
+*{
+  font-family: sans-serif;
+}
+
+body{
+  background: black;
+  color: white;
+}
+
+.section-padding{
+  padding: 100px 0;
+}
+
+.carousel-item{
+  height: 100;
+  min-height: 100;
+  transition: all 0.4s ease-in-out;
+}
+
+.carousel-caption{
+  bottom: 220px;
+  z-index: 2;
+}
+
+.carousel-caption h5{
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.carousel-caption p{
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+.carousel-inner::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.navbar-nav{
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.navbar-dark .navbar-brand{
+  color: #000;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.navbar-dark .navbar-brand:focus,
+.navbar-dark .navbar-brand:hover{
+  color: #000;
+}
+
+.navbar-dark .navbar-nav .navbar-link{
+  color: #000;
+}
+
+.w-100{
+  height: 100vh;
+}
+
+.qt-background{
+	background: url(images/ice.jpg) no-repeat;
+	background-size: cover;
+	padding: 100px 0;
+	background-attachment: fixed;
+	background-position: center center;
+	position: relative;
+}
+.qt-background p {
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 44px;
+    color:white;
+	  margin-bottom: 20px;
+}
+
+.qt-background span {
+    color: white;
+    font-size: 28px;  
+	  font-weight: 600;	
+}
+
+.image-fluid{
+  width: 300px;
+  height: 354px;
+}
+
+.nav-pills .nav-link.active {
+  background-color: gold;
+  color: black;
+}
+
+.nav-pills .nav-link {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  width: 200px;
+}
+
+.nav-pills .nav-link:hover {
+  transform: scale(1.1);
+  color: gold;
+  background-color: black;
+  transition: all 0.4s ease;
+}
+
+.btn:hover{
+  transform: scale(1.1);
+  transition: all 0.4s ease;
+}
+
+.menu-container{
+  padding-left: 50px;
+  position: relative;
+}
+
+.img-area{
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.img-area img{
+  display: block;
+  width: 275px;
+  height: 200px;
+  padding-bottom: 20px;
+}
+
+.img-text{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 215, 0, 0.6);
+  overflow: hidden;
+  width: 275px;
+  height: 0;
+  transition: .5s ease;
+}
+
+.img-area:hover .img-text{
+  height: 200px;
+}
+
+.img-area:hover img{
+  padding-bottom: 0;
+  transition: .5s ease;
+}
+
+h3{
+  width: 100%;
+  margin-top: 20%;
+  color: black;
+  position: absolute;
+  text-align: center;
+}
+
+.menu-container .row h5{
+  width: 100%;
+  margin-top: 40%;
+  color: black;
+  position: absolute;
+  text-align: center;
+}
+
+.menu-container .row{
+  padding-bottom: 10px;
+}
+
+.gallery-container{
+  padding: 3rem;
+}
+
+.single-img{
+  padding-bottom: 10px;
+}
+
+.Image{
+  display: block;
+  width: 100%;
+  border: 1px solid gold;
+}
+
+.thumbnail .single-img img {
+  transition: 0.3s ;
+}
+
+.thumbnail .single-img:hover img {
+  transform: scale(1.1);
+  border: hidden;
+}
+
+.thumbnail{
+  padding-top: 20px;
+}
+
+.container-fluid{
+  padding:  40px 100px 0 100px ;
+}
+
+.container-fluid img{
+  width: 550px;
+  height: 500px;
+}
+
+.form-control{
+  width: 500px;
+  margin-bottom: 30px;
+}
+
+.container-fluid .btn{
+  margin-left: 190px;
+  margin-top: 30px;
+}
+
+.hours{
+  border-bottom: 1px solid white;
+  text-align: center;
+}
+
+h5{
+  font-weight: 600;
+}
